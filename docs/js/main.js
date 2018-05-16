@@ -448,7 +448,7 @@
 		//-- 5.6 activate countdown
 		$('.countdown-container').countDown({
 			targetDate: {
-				'day': 		12,
+				'day': 		2,
 				'month': 	6,
 				'year': 	2018,
 				'hour': 	12,
