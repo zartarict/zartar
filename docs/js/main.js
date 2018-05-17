@@ -390,14 +390,14 @@
 		}
 
 		//-- 5.1 activate static image background
-		if($(".bg-container-static").is(':visible')){
-			$(".bg-container-static").backstretch([
-				"img/sample3.gif"
-			],{
-				duration:6000,
-				fade:'normal'
-			});
-		}
+		// if($(".bg-container-static").is(':visible')){
+		// 	$(".bg-container-static").backstretch([
+		// 		"img/sample3.gif"
+		// 	],{
+		// 		duration:6000,
+		// 		fade:'normal'
+		// 	});
+		// }
 
 		//-- 5.2 activate slideshow background
 		if($(".bg-container-slideshow").is(':visible')){
