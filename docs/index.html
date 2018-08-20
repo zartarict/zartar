@@ -1,351 +1,591 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-    	<!-- 1.0 meta -->
-    	<meta charset="utf-8">
-    	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-        <meta name="description" content="Responsive coming soon template">
-		<meta name="author" content="Zartar ICT">
-        <meta name="keywords" content="responsive, Zartar ICT, countdown, mailchimp, clean, simple">
-        <!-- 2.0 title -->
-    	<title>Zartar ICT Services Co - Coming Soon</title>
 
-        <!-- 3.0 CSS IMPORT -->
-        <!-- CSS IMPORT FOR PLUGIN -->
-        <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-				<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/animate.min.css" type="text/css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css" type="text/css">
-        <link rel="stylesheet" href="css/magnific-popup.css" type="text/css">
-        <link rel="stylesheet" href="css/jquery.wordrotator.min.css" type="text/css">
-        <link rel="stylesheet" href="css/owl.carousel.css" type="text/css">
-        <link rel="stylesheet" href="css/owl.theme.css" type="text/css">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-        <!-- CSS IMPORT FOR FONT -->
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:300,400">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Dosis:300,400,500" type="text/css">
+	<title>Zartar Technologies </title>
 
-        <!-- CSS IMPORT FOR MAIN STYLE AND COLOR SCHEME -->
-		<link rel="stylesheet" href="css/style.css" type="text/css">
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CVarela+Round" rel="stylesheet">
 
-        <!-- snap svg -->
-        <script type="text/javascript" src="js/snap.svg-min.js"></script>
-				<link rel="shortcut icon" href="img/favicon.ico">
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
 
-        <!-- support HTML5 elements and media queries for IE9 -->
-    	<!--[if lt IE 9]>
-      	<script src="js/html5shiv.js"></script>
-      	<script src="js/respond.min.js"></script>
-    	<![endif]-->
-			<style media="screen">
-				/* ---- reset ---- */ body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; } canvas{ display: block; vertical-align: bottom; } /* ---- particles.js container ---- */ #particles-js{ position:absolute; width: 100%; height: 100%; background-color: #6c3fd9; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 100% 100%; } /* ---- stats.js ---- */ .count-particles{ background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; } .js-count-particles{ font-size: 1.1em; } #stats, .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } .count-particles{ border-radius: 0 0 3px 3px; }
-			</style>
-  	</head>
-    <body id="particles-js">
-    	<!-- 4.0 preloader -->
-        <!-- <div class="preloader">
-        	<img width="2000%" height="2000%" src="img/loading.gif" class="centering-xy" alt="preloader" />
-        </div> -->
-        <!-- end preloader -->
+	<!-- Owl Carousel -->
+	<link type="text/css" rel="stylesheet" href="css/owl.carousel.css" />
+	<link type="text/css" rel="stylesheet" href="css/owl.theme.default.css" />
 
-    	<!-- 5.0 background container -->
-        <div class="bg-container-static"></div>
-        <!-- end background container -->
+	<!-- Magnific Popup -->
+	<link type="text/css" rel="stylesheet" href="css/magnific-popup.css" />
 
-        <!-- content container -->
-        <div class="content-container">
-        	<!-- 6.0 menu & logo -->
-            <nav class="menu animated entrance">
-        		<ul>
-               		<!-- logo -->
-                	<a href="/"><li><img src="img/logo.png" alt="logo" class="logo" /></li></a>
-                	<!-- end logo -->
-                	<li class="menu-1 menu-out animated">
-                	  	<a href="#" class="menu-link" data-name="about" data-toggle="tooltip" data-placement="bottom" title="about us">
-                	       	<span aria-hidden="true" class="icon icon-info"></span>
-                	    </a>
-                	</li>
-                	<li class="menu-2 menu-out animated">
-                	  	<a href="#" class="menu-link" data-name="subscribe" data-toggle="tooltip" data-placement="bottom" title="Write to Us">
-                	      	<span aria-hidden="true" class="icon icon-paper-plane"></span>
-                	    </a>
-                	</li>
-                	<!-- <li class="menu-3 menu-out animated">
-                	   	<a href="#" class="menu-link" data-name="works" data-toggle="tooltip" data-placement="bottom" title="our works">
-                	       	<span aria-hidden="true" class="icon icon-briefcase"></span>
-                	    </a>
-                	</li> -->
-                	<li class="menu-4 menu-out animated">
-                	   	<a href="#" class="menu-link" data-name="contact" data-toggle="tooltip" data-placement="bottom" title="contact">
-                	       	<span aria-hidden="true" class="icon icon-call-out"></span>
-                	    </a>
-                	</li>
-            	</ul>
-            </nav>
-            <!-- end menu -->
+	<!-- Font Awesome Icon -->
+	<link rel="stylesheet" href="css/font-awesome.min.css">
 
-        	<!-- 7.0 coming soon container -->
-            <div class="container">
-                <!-- container -->
-                <div class="coming-soon-container col-lg-12 col-md-12 col-sm-12 col-xs-12 centering-y">
-                	<!-- left side -->
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 left-side animated entrance">
-                    	<h1>We Are</h1>
-                    </div>
-                    <!-- end left side -->
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="css/style.css" />
 
-                    <!-- right side -->
-                    <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 right-side animated entrance">
-                    	<h1 id="word-rotator">Zartar ICT</h1>
-                    </div>
-                    <!-- end right side -->
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+</head>
 
-                    <div class="separator animated entrance"></div>
-                </div>
-                <!-- container -->
-            </div>
-            <!-- end coming soon container -->
+<body>
+	<!-- Header -->
+	<header id="home">
+		<!-- Background Image -->
+		<div class="bg-img" style="background-image: url('./img/background1.jpg');">
+			<div class="overlay"></div>
+		</div>
+		<!-- /Background Image -->
 
-            <!-- main content -->
-            <div id="main-content" class="main-content">
-				<svg xmlns="https://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 80 60" preserveAspectRatio="none">
-					<path fill="white" fill-opacity="0.85" d="M80,58 80,58 80,60 80,60 Z"/>
-				</svg>
+		<!-- Nav -->
+		<nav id="nav" class="navbar nav-transparent">
+			<div class="container">
 
-                <!-- 8.0 close main content button -->
-                <div class="close-content-container animated entrance">
-                	<a class="close-content" href="#">X</a>
-                </div>
-                <!-- end close main content button -->
+				<div class="navbar-header">
+					<!-- Logo -->
+					<div class="navbar-brand">
+						<a href="index.html">
+							<img class="logo" src="img/logo.png" alt="logo">
+							<img class="logo-alt" src="img/logo-alt.png" alt="logo">
+						</a>
+					</div>
+					<!-- /Logo -->
 
-                <!-- 9.0 countdown -->
-                <div class="countdown col-lg-6 col-md-6 col-sm-12 col-xs-12">
-                	<div class="countdown-container centering-xy" id="lwt-countdown">
-                		<!-- hours -->
-                    	<div class="dash hours_dash entrance animated">
-                    	    <div class="content">
-                    	    	<div class="digit">10</div><div class="digit">10</div>
-                		    	<span class="dash_title">hours</span>
-                    	    </div>
-						</div>
-                    	<!-- end hours -->
-                		<!-- days -->
-                    	<div class="dash days_dash entrance animated">
-                    	    <div class="content">
-                    	    	<div class="digit">10</div><div class="digit">10</div><div class="digit">10</div>
-                		    	<span class="dash_title">days</span>
-                    	    </div>
-						</div>
-                    	<!-- end days -->
-                    	<!-- minutes -->
-                    	<div class="dash minutes_dash entrance animated">
-                    	    <div class="content">
-                    	    	<div class="digit">10</div><div class="digit">10</div>
-                		    	<span class="dash_title">mins</span>
-                    	    </div>
-						</div>
-                    	<!-- end minutes -->
-                    	<!-- seconds -->
-                    	<div class="dash seconds_dash entrance animated">
-                    	    <div class="content">
-                    	    	<div class="digit">10</div><div class="digit">10</div>
-                		    	<span class="dash_title">secs</span>
-                    	    </div>
-						</div>
-                    	<!-- end seconds -->
-                	</div>
-                </div>
-                <!-- end countdown -->
+					<!-- Collapse nav button -->
+					<div class="nav-collapse">
+						<span></span>
+					</div>
+					<!-- /Collapse nav button -->
+				</div>
 
-                <!-- 10.0 about container -->
-                <div class="about-container col-lg-6 col-md-6 col-sm-12 col-xs-12 centering-y">
-                	<h2 class="animated entrance">about us</h2>
-                    <p class="about-desc col-lg-9 col-lg-offset-3 col-md-10 col-md-offset-2 col-sm-12 col-xs-12 animated entrance">
-                    	Zartar Information Communication Technology Services Company is build by a team of technology experts, who are enthusists and eager to serve in fields of Information Technology, Critical Network Infrastructures, Information & Cyber security policies, procedures, controls and so forth.
-                    </p>
+				<!--  Main navigation  -->
+				<ul class="main-nav nav navbar-nav navbar-right">
+					<li><a href="#home">Home</a></li>
+					<li><a href="#about">About</a></li>
+					<!-- <li><a href="#portfolio">Portfolio</a></li> -->
+					<li><a href="#service">Services</a></li>
+					<!-- <li><a href="#pricing">Prices</a></li> -->
+					<li><a href="#team">Team</a></li>
+					<!-- <li class="has-dropdown"><a href="#blog">Blog</a>
+						<ul class="dropdown">
+							<li><a href="blog-single.html">blog post</a></li>
+						</ul>
+					</li> -->
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+				<!-- /Main navigation -->
 
-                    <!-- 10.1 service -->
-                    <div class="service-container col-lg-9 col-lg-offset-3 col-md-10 col-md-offset-2 col-sm-12 col-sm-offset-0 animated entrance">
-                    	<!-- next service -->
-                        <a class="next-service" href="#">&gt;</a>
-                        <!-- end next service -->
-
-                        <!-- prev service -->
-                        <a class="prev-service" href="#">&lt;</a>
-                        <!-- end prev service -->
-
-                    		<!-- branding -->
-                        	<!-- <div class="service">
-                        		<div class="icon-container col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        	    	<span aria-hidden="true" class="icon icon-present"></span>
-                        	        <span class="text">
-                        	        	Networking
-                        	        </span>
-                        	    </div>
-                        	    <div class="desc-container col-lg-8 col-md-8 col-sm-12 col-xs-12 centering-y">
-                        	    	<p>  </p>
-                        	    </div>
-                        	</div> -->
-                        	<!-- end branding -->
-
-                        	<!-- marketing -->
-                        	<!-- <div class="service">
-                        		<div class="icon-container col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        	    	<span aria-hidden="true" class="icon icon-anchor"></span>
-                        	    	<span class="text">marketing</span>
-                        	    </div>
-                        	    <div class="desc-container col-lg-8 col-md-8 col-sm-12 col-xs-12 centering-y">
-                        	    	<p>Lorem ipsum dolor sit semper amet dolor sit semper amet dolor sit semper amet</p>
-                        	    </div>
-                        	</div> -->
-                        	<!-- end marketing -->
-
-                        	<!-- design -->
-                        	<!-- <div class="service">
-                        		<div class="icon-container col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        	    	<span aria-hidden="true" class="icon icon-pencil"></span>
-                        	    	<span class="text">design</span>
-                        	    </div>
-                        	    <div class="desc-container col-lg-8 col-md-8 col-sm-12 col-xs-12 centering-y">
-                        	    	<p>Lorem ipsum dolor sit semper amet dolor sit semper amet dolor sit semper amet</p>
-                        	    </div>
-                        	</div> -->
-                        	<!-- end design -->
-                        </div>
-                    </div>
-                    <!-- end service -->
-                </div>
-                <!-- end about container -->
-
-                <!-- 11.0 subscribe container -->
-                <div class="subscribe-container col-lg-6 col-md-6 col-sm-12 centering-y">
-                	<h2 class="animated entrance">We Contact You</h2>
-                    <p class="subscribe-desc col-lg-9 col-lg-offset-3 col-md-10 col-md-offset-2 col-sm-12 col-sm-offset-0 animated entrance">
-                    	Type your email and we will get back to right away
-                    </p>
-
-                    <!-- subscribe form -->
-                    <div class="subscribe-form-container col-lg-9 col-lg-offset-3 col-md-10 col-md-offset-2 col-sm-12 col-sm-offset-0 animated entrance">
-                    	<form class="subscribe-form" method="POST" action="https://formspree.io/ali.hashimi@zartar.af">
-
-                        	<input id="email" type="text" name="_replyto" class="subscribe-email" placeholder="your email address" />
-                        	<span class="email-icon"></span>
-                    		<button type="submit" class="button-regular">submit</button>
-                    	</form>
-
-                        <!-- notif container -->
-                    	<div class="subscribe-notif">
-
-                    	</div>
-                    	<!-- end notif container -->
-                    </div>
-                    <!-- end subscribe form -->
-                </div>
-                <!-- end subscribe container -->
-
-                <!-- 12.0 works container -->
-                <div class="works-container col-lg-6 col-md-6 col-sm-12 col-xs-12 centering-y">
-                	<h2 class="animated entrance">Coming Soon!</h2>
-                    <!-- works gallery -->
-                    <!-- end works gallery -->
-                </div>
-                <!-- end works container -->
-
-                <!-- 13.0 contact container -->
-                <div class="contact-container col-lg-6 col-md-6 col-sm-12 col-xs-12 centering-y">
-                	<h2 class="animated entrance">contact</h2>
-                    <p class="contact-desc col-lg-9 col-lg-offset-3 col-md-10 col-md-offset-2 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 animated entrance">
-                    	If you have any question or have a project to discuss with us, We'd love to talk.
-                    </p>
-
-                    <!-- contact details -->
-                    <div class="contact-details col-lg-10 col-lg-offset-2 col-md-11 col-md-offset-1 col-sm-12 col-sm-offset-0 col-xs-12 col-xs-offset-0 animated entrance">
-                    	<!-- phone -->
-                        <div class="detail col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        	<span aria-hidden="true" class="icon icon-call-in"></span>
-                            <span class="desc">
-                            	+93 70 60 61 273
-                            </span>
-                        </div>
-                        <!-- end phone -->
-
-                        <!-- email -->
-                        <div class="detail col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        	<span aria-hidden="true" class="icon icon-envelope-open"></span>
-                            <span class="desc">
-                            	<a href="mailto:info@zartar.af">info@zartar.af</a>
-                            </span>
-                        </div>
-                        <!-- end email -->
-
-                        <!-- address -->
-												<div class="detail col-lg-4 col-md-4 col-sm-4 col-xs-12">
-                        	<span aria-hidden="true" class="icon icon-home"></span>
-                            <span class="desc">
-                            Behind	10th PDA Police Station, H.No 42
-                            </span>
-                        </div>
-                        <!-- end address -->
-                    </div>
-                    <!-- end contact details -->
-                </div>
-                <!-- end contact container -->
-
-                <!-- 14.0 main content controls -->
-                <nav class="main-content-controls col-lg-6 col-md-6 animated entrance">
-                	<a href="#" class="next-content button-square">&rarr;</a>
-                    <a href="#" class="prev-content button-square">&larr;</a>
-                </nav>
-                <!-- end main content controls -->
 			</div>
-            <!-- end main content -->
+		</nav>
+		<!-- /Nav -->
 
-            <!-- 15.0 footer -->
-            <footer class="animated entrance">
-               	<p>copyright 2018 <span aria-hidden="true" class="icon icon-like"></span> by Zartar</p>
+		<!-- home wrapper -->
+		<div class="home-wrapper">
+			<div class="container">
+				<div class="row">
 
-                <!-- social media link -->
-                <div class="social-media-link">
-                   	<!-- <a href="#" class="fab fa-facebook-f"></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-google-plus-g"></i></a> -->
-                </div>
-                <!-- end social media link -->
-            </footer>
-            <!-- end footer -->
-        </div>
-        <!-- end content container -->
+					<!-- home content -->
+					<div class="col-md-10 col-md-offset-1">
+						<div class="home-content">
+							<h1 class="white-text">Experience Creativity With Zartar</h1>
+							<p class="white-text">A group of professionals work hard to develop reliable, resilient, secure and quality products meeting the requirements of your business.
+							</p>
+						</div>
+					</div>
+					<!-- /home content -->
 
-        <!-- 16.0 javascript import -->
-        <!-- jquery -->
-        <!-- <script type="text/javascript" src="js/jquery.js"></script> -->
-				<script
-  src="https://code.jquery.com/jquery-1.11.1.min.js"
-  integrity="sha256-VAvG3sHdS5LqTT+5A/aeq/bZGa/Uj04xKxY8KM/w9EE="
-  crossorigin="anonymous"></script>
-        <!-- bootstrap -->
-        <script type="text/javascript" src="js/bootstrap.min.js"></script>
-        <!-- countdown -->
-        <script type="text/javascript" src="js/jquery.lwtCountdown-1.0.js"></script>
-        <!-- backstretch -->
-        <script type="text/javascript" src="js/jquery.backstretch.min.js"></script>
-        <!-- jquery validate -->
-        <script type="text/javascript" src="js/jquery.validate.min.js"></script>
-        <!-- magnific popup -->
-        <script type="text/javascript" src="js/jquery.magnific-popup.min.js"></script>
-        <!-- word rotator -->
-        <script type="text/javascript" src="js/jquery.wordrotator.min.js"></script>
-        <!-- classie -->
-        <script type="text/javascript" src="js/classie.js"></script>
-        <!-- svg loader -->
-        <script type="text/javascript" src="js/svgLoader.js"></script>
-        <!-- owl carousel -->
-        <script type="text/javascript" src="js/owl.carousel.js"></script>
-        <!-- main js -->
-        <script type="text/javascript" src="js/main.js"></script>
-				<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> <!-- stats.js lib --> <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
-<script type="text/javascript">
-	particlesJS("particles-js", {"particles":{"number":{"value":200,"density":{"enable":true,"value_area":700}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});
-</script>
-		</body>
+				</div>
+			</div>
+		</div>
+		<!-- /home wrapper -->
+
+	</header>
+	<!-- /Header -->
+
+	<!-- About -->
+	<div id="about" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Welcome to Zartar</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-question"></i>
+						<h3>Who We Are?</h3>
+						<p class="text-justify">Zartar ICT Co is registered with AISA under license No. 45700. The company is established by a team of experts who come from different domains of computer science and technology. Here at Zartar experts are picked to join based on factors such as, knowledge baseline, field experience and expertise, critical factor analysis in their respective fields, communication, problem understanding, problem solving skills and capabilities. As a team we have solved a lot of projects together and will continue to come with more legitimate, standard, reliable, resilient, secure, optimized, cost-friendly and timely solution to submitted project/problem. </p>
+					</div>
+				</div>
+				<!-- /about -->
+
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-eye"></i>
+						<h3>Our Vision</h3>
+						<p class="text-justify">We vision the future of Zartar as one of the best and leading ICT companies in the country. We also hardly do believe that with team of experts, we will expand the boundaries of our business beyond the boundaries of the country. Adapting positive technological innovations is a part of company’s culture. Undoubtedly Afghanistan needs technological innovations and we intend to come with most professional and advanced technological & innovational ideas and make sure we have played our positive role in building a tech-oriented Afghanistan and tech-oriented nation. </p>
+					</div>
+				</div>
+				<!-- /about -->
+
+				<!-- about -->
+				<div class="col-md-4">
+					<div class="about">
+						<i class="fa fa-bullseye"></i>
+						<h3>Our Mission</h3>
+						<p class="text-justify">First things first, CUSTOMERS ARE IMPORTANT!
+
+We emphasis on the notion that without our customers’ satisfaction, no matter how hard we work, or how good we are at what we do; still, all efforts would be useless.
+
+Therefore, understanding our customers’ problem(s) and providing the most scientific and objective solutions that satisfies customers’ needs is our highest mission that needs to be accomplished </p>
+					</div>
+				</div>
+				<!-- /about -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /About -->
+
+	<!-- Service -->
+	<div id="service" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">What we offer</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- service -->
+				<div class="col-md-4">
+					<div class="service">
+						<i class="fa fa-shield"></i>
+						<h3>Cyber Security</h3>
+						<p class="text-justify">We proudly announce that our team of experts holding high degrees in field of cyber security and years of experience now work to write your business cyber security policies, procedures, controls keeping in mind confidentiality, integrity, availability, authentication, authorization and accountability based on ISO 27000 and more world class frameworks. </p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4">
+					<div class="service">
+						<i class="fa fa-unlock"></i>
+						<h3>Penetration Testing</h3>
+						<p class="text-justify">The art of penetration testing is a serious business that ensures the vulnerabilities of a company enterprise, based on findings and results risks are calculated, and mitigations are proposed.
+						Our Pen testing geeks are qualified in terms of their technical and ethical skills, they test vulnerabilities and generate accurate reports to  help you secure your network. </p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4">
+					<div class="service">
+						<i class="fa fa-connectdevelop"></i>
+						<h3>Network Infrastructure Architect</h3>
+						<p class="text-justify">Business continuity depends on a critical network infrastructure, failure of network means failure of a company’s backbone.
+						Therefore, our network engineers work hard to always design & architect networks that reliable, functional and secure.</p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4">
+					<div class="service">
+						<i class="fa fa-terminal"></i>
+						<h3>Software Development</h3>
+						<p class="text-justify">The shape of digital world has changed with invention of WWW.
+Speed, digital globalization, business continuity are some fundamental features of web world.
+Your can rely on our developers in terms of developing secure, reliable, optimized & dynamics web sites  and databases for your esteemed business. </p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4">
+					<div class="service">
+						<i class="fa fa-code"></i>
+						<h3>Web Development</h3>
+						<p class="text-justify">Today your website is one of the biggest advertisement and marketing platforms for your business.
+Our 24x7 up and running servers architected with most advanced technologies available today.
+We’d love to host your business websites with most reasonable prices. </p>
+					</div>
+				</div>
+				<!-- /service -->
+
+				<!-- service -->
+				<div class="col-md-4">
+					<div class="service">
+						<i class="fa fa-server"></i>
+						<h3>Web & Mail Hosting</h3>
+						<p class="text-justify">Software run at the core every hardware. However, engineering a software that is maintainable, reusable, reliable, portable, efficient and secure require some real expertise.
+Our software developers are committed to develop splendid software for your business. </p>
+					</div>
+				</div>
+				<!-- /service -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Service -->
+
+
+	<!-- Why Choose Us -->
+	<div id="features" class="section md-padding bg-grey">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- why choose us content -->
+				<div class="col-md-6">
+					<div class="section-header">
+						<h2 class="title">Why Choose Us</h2>
+					</div>
+					<p>We place our clients’ needs first, the technology is simply a means to an end that supports growth and success. Find out how we're different and why we should be your ICT provider of choice.</p>
+					<div class="feature">
+						<i class="fa fa-check"></i>
+						<p>We make sure to deliver quality and reliable solutions.</p>
+					</div>
+					<div class="feature">
+						<i class="fa fa-check"></i>
+						<p>You get the most reasonable prices from us.</p>
+					</div>
+					<div class="feature">
+						<i class="fa fa-check"></i>
+						<p>Security and resiliency is at the core of every product we develop.</p>
+					</div>
+				</div>
+				<!-- /why choose us content -->
+
+				<!-- About slider -->
+				<div class="col-md-6">
+					<div id="about-slider" class="owl-carousel owl-theme">
+						<img class="img-responsive" src="./img/about1.png" alt="">
+						<img class="img-responsive" src="./img/about2.jpg" alt="">
+						<img class="img-responsive" src="./img/about1.png" alt="">
+						<img class="img-responsive" src="./img/about2.jpg" alt="">
+					</div>
+				</div>
+				<!-- /About slider -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Why Choose Us -->
+
+
+
+
+	<!-- Team -->
+	<div id="team" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section header -->
+				<div class="section-header text-center">
+					<h2 class="title">Our Team</h2>
+				</div>
+				<!-- /Section header -->
+
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/ali.png" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="https://www.facebook.com/sayyedali.hashimi" target="_blank"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>Sayyed Ali Agha Hashimi</h3>
+							<span>System Architect</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/siyar.png" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="https://www.facebook.com/ahmadsiyar.zia.98" target="_blank"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>Ahmad Siyar Zia</h3>
+							<span>Cyber Security professional</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/hassan.png" alt="">
+							<div class="overlay">Hassan
+								<div class="team-social">
+									<a href="https://www.facebook.com/hassanmayel" target="_blank"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>Mohammad Hassan Mayel</h3>
+							<span>Network Engineer</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/hasib.png" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="https://www.facebook.com/hasib.tareen" target="_blank"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>Hasib Tareen</h3>
+							<span>Brand Designer</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/rafi.png" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="https://www.facebook.com/mohammadrafi.ghafoorzai" target="_blank"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>Mohammad Rafi Ghafoorzai</h3>
+							<span>Procurement/Logistic Specialist</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+				<!-- team -->
+				<div class="col-sm-4">
+					<div class="team">
+						<div class="team-img">
+							<img class="img-responsive" src="./img/khalid.png" alt="">
+							<div class="overlay">
+								<div class="team-social">
+									<a href="https://www.facebook.com/khalid.latifi" target="_blank"><i class="fa fa-facebook"></i></a>
+									<a href="#"><i class="fa fa-google-plus"></i></a>
+									<a href="#"><i class="fa fa-twitter"></i></a>
+								</div>
+							</div>
+						</div>
+						<div class="team-content">
+							<h3>Khalid Abdulrahimzai</h3>
+							<span>Business Development Specialist</span>
+						</div>
+					</div>
+				</div>
+				<!-- /team -->
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Team -->
+
+
+
+	<!-- Contact -->
+	<div id="contact" class="section md-padding">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<!-- Section-header -->
+				<div class="section-header text-center">
+					<h2 class="title">Get in touch</h2>
+				</div>
+				<!-- /Section-header -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fa fa-phone"></i>
+						<h3>Phone</h3>
+						<p>+93 70 60 61 273</p>
+						<p>+93 77 88 85 550</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fa fa-envelope"></i>
+						<h3>Email</h3>
+						<p>info@zartar.af</p>
+						<p>support@zartar.af</p>
+					</div>
+				</div>
+				<!-- /contact -->
+
+				<!-- contact -->
+				<div class="col-sm-4">
+					<div class="contact">
+						<i class="fa fa-map-marker"></i>
+						<h3>Address</h3>
+						<p>Behind 10th PDA Police Station, House #42, Qala-e-Fatihullah</p>
+					</div>
+				</div>
+				<!-- /contact -->
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</div>
+	<!-- /Contact -->
+
+
+	<!-- Footer -->
+	<footer id="footer" class="sm-padding bg-dark">
+
+		<!-- Container -->
+		<div class="container">
+
+			<!-- Row -->
+			<div class="row">
+
+				<div class="col-md-12">
+
+					<!-- footer logo -->
+					<div class="footer-logo">
+						<a href="index.html"><img src="img/logo-alt.png" alt="logo"></a>
+					</div>
+					<!-- /footer logo -->
+
+					<!-- footer follow -->
+					<ul class="footer-follow">
+						<li><a href="https://www.facebook.com/zartar.ictservices" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="https://twitter.com/ZartarI" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="https://plus.google.com/u/0/103456243427745286162" target="_blank"><i class="fa fa-google-plus"></i></a></li>
+						<li><a href="https://www.instagram.com/zartar.ict/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+					</ul>
+					<!-- /footer follow -->
+
+					<!-- footer copyright -->
+					<div class="footer-copyright">
+						<p>Copyright © 2018. All Rights Reserved. Designed by <a href="http://zartar.af" target="_blank">Zartar</a></p>
+					</div>
+					<!-- /footer copyright -->
+
+				</div>
+
+			</div>
+			<!-- /Row -->
+
+		</div>
+		<!-- /Container -->
+
+	</footer>
+	<!-- /Footer -->
+
+	<!-- Back to top -->
+	<div id="back-to-top"></div>
+	<!-- /Back to top -->
+
+	<!-- Preloader -->
+	<div id="preloader">
+		<div class="preloader">
+			<span></span>
+			<span></span>
+			<span></span>
+			<span></span>
+		</div>
+	</div>
+	<!-- /Preloader -->
+
+	<!-- jQuery Plugins -->
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/jquery.magnific-popup.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
 </html>
